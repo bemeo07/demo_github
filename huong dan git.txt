@@ -1,0 +1,28 @@
+
+1)Download Git
+2)Tạo tài khoản trên Github : https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+3)Mở Git Bash (phải chuột trên thư mục bất kì chọn Git Bash)
+4)Hiển thị list các config :
+	git config --list
+5)Config global username/email:
+	git config --global user.name "Ho ten khong dau"
+	git config --global user.email "your email"
+6)Chạy lại lệnh để kiểm tra thông tin vừa nhập:
+	git config --list
+------------------------------------------------------------
+Clone một project có trên Github về máy
+
+7)Copy đường dẫn clone một project trên github (Button [Code]):
+	vd: Project CRM viết trên framework Django : https://github.com/MicroPyramid/Django-CRM
+	Link http: https://github.com/MicroPyramid/Django-CRM.git
+8)Viết câu lênh clone project về máy:
+	git clone [phai chuot paste copy ở bước trên]
+	Vd: git clone https://github.com/MicroPyramid/Django-CRM.git
+
+-------------------------------------------------------------
+Tạo một project mới trên Github
+
+9)Tạo một prject trên Github rồi code
+	a)Trên trang github tạo new repository
+
+10)Tạo một project trên máy rồi đầy lên Github		
